@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/mmulet/eekgee/issues"
   },
-  "homepage": "https://github.com/mmulet/eekgee#readme"
+  "homepage": "https://github.com/mmulet/eekgee#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.4",
+    "inquirer-datepicker-prompt": "^0.4.2",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.7.0"
+  }
 }
