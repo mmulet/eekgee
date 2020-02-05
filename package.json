@@ -1,0 +1,19 @@
+{
+  "name": "eekgee",
+  "version": "0.0.0",
+  "description": "A heartbeat for your repo! Find dead projects in your dependencies! eekgee.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmulet/eekgee.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmulet/eekgee/issues"
+  },
+  "homepage": "https://github.com/mmulet/eekgee#readme"
+}
