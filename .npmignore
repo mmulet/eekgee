@@ -1,0 +1,8 @@
+src/
+.vscode/
+__tests__/
+lib/*.test.js
+lib/*.test.utility.js
+tsconfig.json
+jest.config.js
+babel.config.js

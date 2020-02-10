@@ -12,9 +12,14 @@ export interface IEKGVersion0 {
    */
   readonly status: "dead" | "alive";
   /**
-   * The pending date of the next commit. 
-   * If currentDate > nextCommitDate consider 
+   * The pending date of the next commit.
+   * If currentDate > nextCommitDate consider
    * this project to be dead.
    */
   readonly nextCommitDeadlineDate: number;
+  /**
+   * in days. After beeping, this number of
+   * days will become the deadline
+   */
+  readonly commitFrequency: number;
 }
