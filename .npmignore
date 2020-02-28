@@ -1,6 +1,6 @@
 src/
 .vscode/
-__tests__/
+__mocks__/
 lib/*.test.js
 lib/*.test.utility.js
 tsconfig.json
